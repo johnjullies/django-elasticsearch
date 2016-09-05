@@ -1,0 +1,4 @@
+.env/
+project/static/
+project/db.sqlite3
+*.pyc
