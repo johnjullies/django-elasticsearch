@@ -23,7 +23,7 @@ Get inside the project directory and build the database
 Run Elasticsearch server on port `9200:9200`. If you're using the
 docker image like me, run
 
-    docker -p 9200:9200 -d elasticsearch:2.3.5
+    docker run -p 9200:9200 -d elasticsearch:2.3.5
 Populate the database and elasticsearch server with dummy data 
 
     python manage.py dummy-data 10000
